@@ -8,10 +8,10 @@ Concurrency meets Byteman
 <br />
 <br />
 <br />
-Aleš Justin [ajustin@redhat.com](ajustin@redhat.com)
+Aleš Justin [ajustin@redhat.com](mailto:ajustin@redhat.com)
 
 
-Visit [http://alesj.github.io/async-and-non-blocking-io/](http://alesj.github.io/async-and-non-blocking-io/) to see slides in presentation mode.
+Visit http://alesj.github.io/non-blocking-io-meets-concurrency-and-byteman to see slides in presentation mode.
 
 ---
 
@@ -20,7 +20,7 @@ Agenda
 
 ### - Core concurrency concepts
 ### - High level concurrency objects
-### - Byteman intro and Arquillian usage
+### - Byteman intro and its Arquillian usage
 
 
 ---
@@ -89,7 +89,7 @@ Links
 
 ### References
 
-[https://docs.oracle.com/javase/tutorial/essential/concurrency/] (https://docs.oracle.com/javase/tutorial/essential/concurrency/)
+https://docs.oracle.com/javase/tutorial/essential/concurrency/
 
 
 ### Presentation tool used
