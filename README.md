@@ -10,6 +10,7 @@ Concurrency meets Byteman
 <br />
 Aleš Justin [ajustin@redhat.com](mailto:ajustin@redhat.com)
 
+???
 
 Visit http://alesj.github.io/non-blocking-io-meets-concurrency-and-byteman to see slides in presentation mode.
 
@@ -42,7 +43,7 @@ Core concurrency concepts
     - object
     - re-entry
 - atomic access
-    - most primitive
+    - all refs, most primitive (excl. long, double)
     - all volatile
 - liveness
     - deadlock
@@ -51,6 +52,9 @@ Core concurrency concepts
 - guarded blocks
     - wait (loop!), notify, notifyall
 - immutable objects
+- double checked locking
+    - volatile!
+    - init on demand holder idiom
 
 ---
 
@@ -80,7 +84,10 @@ Byteman
 ======
 
 - intro
+    - http://byteman.jboss.org/
 - Arquillian usage
+    - https://github.com/GoogleCloudPlatform/appengine-tck/tree/master/core/byteman/src/test/java/com/google/appengine/tck/byteman
+    - JAVA_OPTS="$JAVA_OPTS -Xbootclasspath/p:${BYTEMAN_HOME}/lib/byteman-submit.jar -javaagent:${BYTEMAN_HOME}/lib/byteman.jar=port:9091"
 
 ---
 
@@ -90,6 +97,7 @@ Links
 ### References
 
 https://docs.oracle.com/javase/tutorial/essential/concurrency/
+https://en.wikipedia.org/wiki/Double-checked_locking
 
 
 ### Presentation tool used
