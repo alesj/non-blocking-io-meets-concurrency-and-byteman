@@ -62,9 +62,11 @@ Core concurrency concepts
 High level concurrency objects
 ======
 
-- java.util.concurrent
 - Lock objects
-    - Read, Write, ReadWrite, re-entrant
+    - Lock, ReadWriteLock, re-entrant
+- java.util.concurrent
+    - Semaphore, CountDownLatch, CyclicBarrier, ...
+    - CompletableFuture, Exchanger, Phaser, ...
 - Executors
     - service (lifecycle)
     - scheduled
