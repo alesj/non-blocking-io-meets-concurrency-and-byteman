@@ -51,6 +51,7 @@ Core concurrency concepts
     - livelock
 - guarded blocks
     - wait (loop!), notify, notifyall
+    - must have monitor / synchronized!
 - immutable objects
 - double checked locking
     - volatile!
@@ -73,6 +74,7 @@ High level concurrency objects
     - BlockingQueue
     - ConcurrentMap
     - ConcurrentNavigableMap
+    - Check Guava lib
 - Atomic variables
     - AtomicX (X - Integer, Boolean, Reference, ...)
 - ThreadLocalRandom
@@ -98,6 +100,7 @@ Links
 
 https://docs.oracle.com/javase/tutorial/essential/concurrency/
 https://en.wikipedia.org/wiki/Double-checked_locking
+https://github.com/google/guava
 
 
 ### Presentation tool used
